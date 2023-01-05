@@ -1,7 +1,7 @@
 pipeline{
     agent any
     tools{
-        maven '3_5_0'
+        maven 'maven_3_5_0'
     }
     stages{
         stage('Quality Gate Status Check'){
